@@ -1,0 +1,41 @@
+.header{
+    height: 80px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.nav-bar{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4c4c4c;
+}
+.header .nav-bar ul{
+    display: flex;
+    gap: 20px;
+}
+.pending{
+    color: red !important;
+}
+.active{
+    color: red !important;
+}
+.default{
+    color: #fff !important;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 12px;
+}
+.nav-bar .brand_name{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+.nav-bar .brand_name span{
+    color: #f15d44;
+}

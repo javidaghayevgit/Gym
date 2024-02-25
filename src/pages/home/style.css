@@ -1,0 +1,27 @@
+.background_image{
+    height: 100vh;
+    background-image: url('../../assets/images/hero-bg.jpg.webp');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.home .center-text span{
+    color: #f15d44;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.home .center-text h1{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.home .center-text p{
+    color: #fff;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 17px;
+}
